@@ -1,0 +1,46 @@
+/* Bangla font - google font  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Noto Serif Bengali', serif; */
+
+body {
+        font-family: 'Noto Serif Bengali', serif;
+        font-weight: 600;
+}
+.container {
+        max-width: 1300px;
+        width: 90%;
+        margin: 0 auto;
+}
+header{
+        background-color: #dddeee;
+        padding: 10px;
+        text-align: center;
+}
+header p {
+        font-weight: 800;
+}
+section{
+        display: flex;
+        flex-wrap: wrap;
+}
+.popup__msg{
+        background: #b6ffe1;
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 5px;
+        position: fixed;
+        display: none;
+}
+.msg__box{
+        display: flex;
+        margin: 4px;
+        padding: 5px 10px;
+        border: 1px solid #dddeee;
+        border-radius: 5px;
+        justify-content: space-between;
+        align-items: center;
+}
+.msg__box:hover{
+        cursor: pointer;
+        border: 1px solid #a3a7df;
+}
